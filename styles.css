@@ -103,6 +103,7 @@ nav .fa-solid{
     display: none;
 }
 
+
 @media only screen and (max-width: 809px){
     .home-text{
         font-size: 30px;
@@ -273,12 +274,13 @@ section .card .image img{
 }
 
 .card .media-icons{
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
     top: 10px;
     right: 20px;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 .card .media-icons i{
     color: black;
@@ -286,10 +288,6 @@ section .card .image img{
     margin-top: 10px;
     transition: all 0.3s ease;
     cursor: pointer;
-}
-
-.card .media-icons i:hover{
-    opacity: 1;
 }
 
 .card .name-profession{
@@ -526,7 +524,7 @@ img {
     text-align: center;
     margin-top: 12px;
     font-size: 19px;
-    font-family: sans-serif, cursive;
+    font-family: sans-serif;
     font: bold;
 }
 
